@@ -1,4 +1,4 @@
-fetch('https://api.github.com/repos/ethanboxx/git-backup/commits')
+fetch('https://api.github.com/repos/ethanboxx/read_input/commits')
     .then(res => res.json())
     .then((out) => {
         var commit = out[0].commit;
